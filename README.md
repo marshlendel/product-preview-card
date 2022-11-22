@@ -35,8 +35,8 @@ Mobile View
 ---
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/marshlendel/product-preview-card)
-- Live Site URL: [Add live site URL here](https://tangerine-sunburst-d13985.netlify.app)
+- Solution URL: [Solution](https://github.com/marshlendel/product-preview-card)
+- Live Site URL: [Live Site](https://tangerine-sunburst-d13985.netlify.app)
 
 ## My process
 
