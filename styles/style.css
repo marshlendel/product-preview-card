@@ -46,7 +46,8 @@ p {
 }
 .card-container .card-image {
   max-height: 60vh;
-  flex: 1 1 25rem;
+  min-width: 212px;
+  flex: 1 1 5rem;
 }
 .card-container .card-image img {
   width: 100%;
@@ -55,6 +56,8 @@ p {
      object-fit: cover;
 }
 .card-container .card-info {
+  min-width: 279px;
+  flex: 1 1 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,4 +104,43 @@ p {
 .card-container .card-price p {
   text-decoration: line-through;
   margin-left: 2rem;
+}
+
+@media screen and (min-width: 1441px) {
+  .card-container .card-info {
+    padding: 5.5rem 9.2rem;
+  }
+}
+@media screen and (max-width: 1095px) {
+  .card-container {
+    width: 492.75px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .card-container {
+    width: 93%;
+  }
+  .card-container .card-image {
+    max-height: 45vh;
+    flex: 1 1 40rem;
+  }
+  .card-container .card-info {
+    padding: 1.5rem;
+    flex: 1 1 40rem;
+    justify-content: space-evenly;
+  }
+  .card-container .card-info p {
+    margin: 1rem 0;
+  }
+  .card-container .card-info button {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 465px) {
+  .card-container {
+    width: 93%;
+  }
+  .card-container .card-image {
+    max-height: 32vh;
+  }
 }/*# sourceMappingURL=style.css.map */

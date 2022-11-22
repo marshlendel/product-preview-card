@@ -7,5 +7,49 @@ $paragraph: 14px;
 @import "./global";
 @import "./card";
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 1441px) {
+  .card-container .card-info {
+    padding: 5.5rem 9.2rem;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .card-container {
+    width: 492.75px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .card-container {
+    width: 93%;
+
+    .card-image {
+      max-height: 45vh;
+      flex: 1 1 40rem;
+    }
+
+    .card-info {
+      padding: 1.5rem;
+      flex: 1 1 40rem;
+      justify-content: space-evenly;
+
+      p {
+        margin: 1rem 0;
+      }
+
+      button {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .card-container {
+    width: 93%;
+
+    .card-image {
+      max-height: 32vh;
+    }
+  }
 }
