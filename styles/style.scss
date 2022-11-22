@@ -20,6 +20,14 @@ $paragraph: 14px;
 }
 
 @media screen and (max-width: 715px) {
+  p {
+    margin: 1rem 0;
+  }
+
+  button {
+    margin: 1rem 0;
+  }
+
   .card-container {
     width: 93%;
 
@@ -33,12 +41,8 @@ $paragraph: 14px;
       flex: 1 1 40rem;
       justify-content: space-evenly;
 
-      p {
-        margin: 1rem 0;
-      }
-
-      button {
-        margin-top: 1rem;
+      .card-price p {
+        margin-left: 2rem;
       }
     }
   }
