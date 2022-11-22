@@ -16,6 +16,12 @@ body {
 h1,
 h2 {
   font-family: "Fraunces", serif;
+  font-size: 3.4rem;
+}
+
+p {
+  font-size: $paragraph;
+  color: hsl(212deg, 21%, 51%);
 }
 
 .attribution {
