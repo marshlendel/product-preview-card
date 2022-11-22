@@ -47,7 +47,7 @@ p {
 .card-container .card-image {
   max-height: 60vh;
   min-width: 212px;
-  flex: 1 1 5rem;
+  flex: 1 1 20rem;
 }
 .card-container .card-image img {
   width: 100%;
@@ -57,7 +57,7 @@ p {
 }
 .card-container .card-info {
   min-width: 279px;
-  flex: 1 1 5rem;
+  flex: 1 1 20rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,7 +108,10 @@ p {
 
 @media screen and (min-width: 1441px) {
   .card-container .card-info {
-    padding: 5.5rem 9.2rem;
+    padding: 6rem 4em;
+  }
+  .card-container .card-image {
+    flex: 1 1 36.9rem;
   }
 }
 @media screen and (max-width: 1095px) {

@@ -9,8 +9,13 @@ $paragraph: 14px;
 
 @media screen and (min-width: 1441px) {
   .card-container .card-info {
-    padding: 5.5rem 9.2rem;
+    padding: 6rem 4em;
   }
+
+  .card-container .card-image {
+    flex: 1 1 36.9rem;
+  }
+
 }
 
 @media screen and (max-width: 1095px) {
