@@ -63,7 +63,6 @@ p {
   justify-content: space-between;
   padding: 4rem;
   background: hsl(0deg, 0%, 100%);
-  flex: 1 1 25rem;
 }
 .card-container .card-info #perfume {
   letter-spacing: 0.5rem;
@@ -106,7 +105,7 @@ p {
   margin-left: 2rem;
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1555px) {
   .card-container .card-info {
     padding: 6rem 4em;
   }

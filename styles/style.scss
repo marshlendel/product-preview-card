@@ -7,7 +7,7 @@ $paragraph: 14px;
 @import "./global";
 @import "./card";
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1555px) {
   .card-container .card-info {
     padding: 6rem 4em;
   }
@@ -15,7 +15,6 @@ $paragraph: 14px;
   .card-container .card-image {
     flex: 1 1 36.9rem;
   }
-
 }
 
 @media screen and (max-width: 1095px) {
